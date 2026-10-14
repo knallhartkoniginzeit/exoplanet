@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+plotly
+requests
+statsmodels
+scikit-learn
+seaborn
+matplotlib
+streamlit-autorefresh
