@@ -59,6 +59,7 @@ Live"**. If the API is unreachable, the app falls back to
   it is picked up.
 
 To force a fresh fetch, use the **"Refresh data now"** button in the sidebar.
+The dashboard reuses the same NASA Exoplanet Archive table on every fetch, so repeated refreshes return only newly confirmed or updated rows.
 The dashboard **auto-refreshes every 10 minutes** via `streamlit-autorefresh`
 (installed with `requirements.txt`; the API cache TTL is also 60 minutes).
 
